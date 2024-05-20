@@ -54,7 +54,7 @@ main{
 }
 
 main h1 {
-    border: bottom;
+    border-bottom: 1px solid #ccc;
 }
 
 aside{
@@ -94,6 +94,10 @@ p{
 header, footer{
     max-width: 840pxd;
     margin: 0 auto;
+}
+
+.pad {
+    padding-top: 3rem;
 }
 
 /*footer{

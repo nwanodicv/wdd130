@@ -22,8 +22,25 @@ body {
 }
 
 header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
     font: var(--heading-font);
     color: var(--primary-color);
+}
+
+header img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: Acme, Arial, sans-sarif;
 }
 
 p {
@@ -32,12 +49,38 @@ p {
 }
 
 nav {
+    display: flex;
     background-color: var(--nav-background-color);
+    text-align: right;
+    margin-left: 650px;
+    border-top: 0;
 }
 
 nav a {
+    flex: 1 1 100%;
     display: black;
     color: var(--nav-link-color);
     text-decoration: none;
-    padding: 1rem;
-  }
+    padding: 20px;
+    margin-left: 50px;
+}
+
+nav a :hover {
+    color: rgb(230, 220, 218);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.hero {
+    grid-column: 2/3;
+    margin: 1rem;
+    max-width: 840;
+}
+
+
+section h2 {
+    display: flex;
+    margin-left: 30rem;
+    text-align: center;
+    color:#70ec1d
+}
