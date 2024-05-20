@@ -35,7 +35,9 @@ nav {
     background-color: var(--nav-background-color);
 }
 
-a {
+nav a {
+    display: black;
     color: var(--nav-link-color);
     text-decoration: none;
-}
+    padding: 1rem;
+  }
