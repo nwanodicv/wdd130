@@ -31,17 +31,21 @@ body {
     border-radius: 1rem;
     background-color: rgb(233, 211, 211);
 }
+
 header {
+    display: flex;
     margin: 0 auto;
     width: 650px;
 }
 
 h1 {
-    margin: 1rem;
+    margin-bottom: 2rem;
+    padding-right: 1rem;
     font-size: 1.5em;
     color: navy;
     text-align: center;
 }
+
 
 form {
     width: 650px;
