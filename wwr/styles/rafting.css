@@ -52,8 +52,9 @@ nav {
     display: flex;
     background-color: var(--nav-background-color);
     text-align: right;
-    margin-left: 650px;
+    margin-left: 400px;
     border-top: 0;
+    width: 50rem;
 }
 
 nav a {
@@ -80,23 +81,28 @@ nav a :hover {
 
 section h2 {
     display: flex;
-    margin: 0;
+    margin-left: 38rem;
     text-align: center;
-    color:#70ec1d
+    color:#70ec1d;
+    align-content: center;
 }
 
 .sociallinks {
     display: flex;
+    grid-gap: 0.1rem;
+    grid-template-rows: auto auto auto;
 }
 
 footer {
     border-top: 1px solid #333;
+    
 }
 
 /* CSS STYLING FOR CONTACT-US PAGE (CONTACT.HTML)*/
 
 fieldset {
     width: 80rem;
+    padding-bottom: 2rem;
 }
 
 legend {
@@ -105,6 +111,7 @@ legend {
 
 .image {
     display: flex;
+    grid-gap: 5rem;
     justify-content: space-around;
 }
 
@@ -113,3 +120,45 @@ img {
     height: 20rem;
     justify-content: space-around;
 }
+
+.history {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: auto auto auto;
+    align-content: center;
+}
+
+h5 {
+    caption-side: bottom;
+    margin-left: 5rem;
+    font-weight: bold;
+}
+
+h3 {
+    margin-left: 38rem;
+}
+
+.field {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.raft {
+    display: flex;
+    grid-gap: 4rem;
+}
+
+.img {
+    padding-top: 9rem;
+    margin-right: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
