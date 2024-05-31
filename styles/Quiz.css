@@ -40,6 +40,9 @@ form{
 label, input, button, select, textarea {
     font-family: Robot, Arial, sans-serif;
 }
+ textarea {
+    width: 29rem;
+ }
 
 input, select{
     margin-bottom: 1rem;
