@@ -66,6 +66,15 @@ nav a {
     margin-left: 50px;
 }
 
+figure {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.image img {
+    justify-content: space-between;
+}
+
 nav a :hover {
     color: rgb(230, 220, 218);
     font-weight: 700;
@@ -354,8 +363,17 @@ a {
     margin-left: 20rem;
 }
 
+.div {
+    color: #eee;
+}
 
+.nav-items a {
+    color: #eee;
+}
 
+.nav-items a:hover {
+    color:#70ec1d;
+}
 
 
 
