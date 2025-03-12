@@ -1,4 +1,4 @@
-* {
+/* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,13 +6,13 @@
 
 /* Class Selector*/
 
-.box {
+/*.box {/////////////////////////////////
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
     padding: 1rem;
     background-color: #ddd;
     color: #000;
-}
+}/////////////////////////////////////////
 
 nav {
     background-color: rgb(47, 241, 8);
@@ -37,7 +37,7 @@ nav a {
     height: 35px;
     text-align: center;
     padding-bottom: 2.5rem;
-}*/
+}*
 
 nav :hover {
     color: steelblue;
@@ -45,7 +45,7 @@ nav :hover {
 
 .grid {
     display: grid;
-}
+}*/
 
 main{
     grid-column: 2/3;
@@ -53,7 +53,38 @@ main{
     max-width: 840;
 }
 
-main h1 {
+aside{
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0/ 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+}
+
+p {
+    padding: 0;
+}
+
+footer{
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}    
+/*
+
+/*main h1 {
     border-bottom: 1px solid #ccc;
 }
 
@@ -68,13 +99,13 @@ aside{
     background-color: #eee;
     color: #333;
     text-align: center;
-}
-
+}/*
+//////////////////////////////
 /*aside h2 {
     position: absolute;
     top: 47px;
     left: 150px;
-}*/
+}/////////////////////////////
 
 aside img{
     width: 200px;
@@ -98,16 +129,15 @@ header, footer{
 
 .pad {
     padding-top: 3rem;
-}
-
+}/*
+///////////////////////////////////////
 /*footer{
     max-width: 840pxd;
     margin: 0 auto;
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
-}*/
-
+}/////////////////////////////////////////
 
 
 
