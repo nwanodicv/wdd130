@@ -21,6 +21,31 @@ body {
     --nav-hover-background-color: #1111a3;
 }
 
+.font1 {
+  font-family: url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+}
+
+.font2 {
+  font-family:fantasy;
+}
+
+.input1 {
+  background-color: var(--primary-color);
+}
+
+.input2 {
+  background-color: var(--secondary-color);
+}
+
+.input3 {
+  background-color: var(--accent1-color);
+}
+
+.input4 {
+  background-color: var(--accent2-color);
+}
+
+
   body {
     font-family: var(--paragraph-font);
     max-width: 960px;
