@@ -72,6 +72,7 @@ figure {
     grid-template-columns: auto auto auto auto auto;
 }
 
+
 .image img {
     justify-content: space-between;
 }
