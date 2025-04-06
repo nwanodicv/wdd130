@@ -65,9 +65,10 @@ nav {
 }
 
 nav a {
+    color: white;
+    box-sizing: border-box;
     flex: 1 1 100%;
     display: black;
-    color: white;
     text-decoration: none;
     padding: 20px;
     margin-left: 50px;
