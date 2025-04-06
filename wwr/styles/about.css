@@ -1,0 +1,301 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 960px;
+    padding: 20px;
+}
+
+  :root {
+    --primary-color: #86e646;
+    --secondary-color: #894857;
+    --accent1-color: #759930;
+    --accent2-color: #508374;
+
+    --heading-font: 'sans', serif;
+    --paragraph-font: 'sans', serif;
+
+    --nav-background-color: #873936;
+    --nav-link-color: #adab37;
+    --nav-hover-link-color: #256847;
+    --nav-hover-background-color: #1111a3;
+}
+
+header {
+    background-color: gray;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: right;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+    font: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: Acme, Arial, sans-sarif;
+}
+
+p {
+    font-size: var(--paragraph-font);
+    
+}
+
+nav {
+    background-color: gray;
+    display: flex;
+    text-align: right;
+    margin-left: 365px;
+    border-top: 0;
+    width: 50rem;
+}
+
+nav a {
+    flex: 1 1 100%;
+    display: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+nav a :hover {
+    color: rgb(230, 220, 218);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.hero {
+    grid-column: 2/3;
+    margin: 1rem;
+    max-width: 840;
+}
+
+
+section h2 {
+    display: flex;
+    margin-left: 38rem;
+    text-align: center;
+    color:#70ec1d;
+    align-content: center;
+}
+
+.sociallinks {
+    display: flex;
+    grid-gap: 0.1rem;
+    grid-template-rows: auto auto auto;
+}
+
+footer {
+    border-top: 1px solid #333;
+    
+}
+
+/* CSS STYLING FOR CONTACT-US PAGE (CONTACT.HTML)*/
+
+fieldset {
+    width: 80rem;
+    padding-bottom: 2rem;
+}
+
+legend {
+    font-size: 1.5rem;
+}
+
+.image {
+    display: flex;
+    grid-gap: 5rem;
+    justify-content: space-around;
+}
+
+img {
+    width: 150px;
+    height: 12rem;
+    justify-content: space-around;
+}
+
+.history {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: auto auto auto;
+    align-content: center;
+}
+
+h5 {
+    caption-side: bottom;
+    margin-left: 5rem;
+    font-weight: bold;
+}
+
+h3 {
+    margin-left: 38rem;
+}
+
+.field {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.raft {
+    display: flex;
+    grid-gap: 4rem;
+}
+
+.img {
+    padding-top: 9rem;
+    margin-right: 4rem;
+}
+
+.wireframe a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgb(177, 14, 109);
+}
+
+.wireframe a:hover {
+    color: rgb(209, 12, 12)
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 80rem;
+    margin-top: 2rem;
+}
+
+.social-media {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.social-media img {
+    height: 30px;
+    width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 1rem;
+    background-color: #0077cc;
+    color: white;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    height: 60px;
+    margin-right: 1rem;
+}
+
+.adventure_image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: for rounded corners *
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    margin-left: 80px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+.history, .adventures {
+    margin-bottom: 2rem;
+}
+
+.adventure-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: for rounded corners *
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.social-media img {
+    height: 30px;
+    width: 30px;
+}
