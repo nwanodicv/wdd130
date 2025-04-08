@@ -1,4 +1,5 @@
 
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -178,116 +179,6 @@ footer {
     text-align: center;
     width: 80rem;
     margin-top: 2rem;
-}
-
-.social-media {
-    display: flex;
-    justify-content: flex-end;
-    gap: 1rem;
-}
-
-.social-media img {
-    height: 30px;
-    width: 30px;
-}
-
-
-
-
-
-
-
-
-
-
-/* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
-
-header {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-    padding: 1rem;
-    background-color: #0077cc;
-    color: white;
-}
-
-header .logo {
-    display: flex;
-    align-items: center;
-}
-
-header img {
-    height: 60px;
-    margin-right: 1rem;
-}
-
-.adventure_image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px; /* Optional: for rounded corners *
-}
-
-nav {
-    display: flex;
-}
-
-nav ul {
-    display: flex;
-    list-style-type: none;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav a {
-    margin-left: 80px;
-    color: white;
-    text-decoration: none;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-main {
-    padding: 2rem;
-}
-
-.history, .adventures {
-    margin-bottom: 2rem;
-}
-
-.adventure-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1rem;
-}
-
-figure {
-    text-align: center;
-}
-
-figure img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px; /* Optional: for rounded corners *
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    padding: 1rem;
-    text-align: center;
 }
 
 .social-media {
