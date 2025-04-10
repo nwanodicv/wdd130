@@ -7,6 +7,60 @@ body {
     background-color: #f2f2f2;
 }
 
+
+
+
+
+
+
+
+
+/* Hero Section */
+.hero-img {
+    width: 100%;
+    height: auto;
+    max-height: 450px; /* Ensure it looks good on most screens */
+    object-fit: cover;
+}
+
+/* Content Section */
+.grid-item img {
+    width: 100%;
+    max-width: 100%; /* Make sure it doesn't exceed its container */
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 15px; /* Space between images and text */
+}
+
+/* Newsletter Section */
+.newsletter {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Header */
 header {
     display: grid;
